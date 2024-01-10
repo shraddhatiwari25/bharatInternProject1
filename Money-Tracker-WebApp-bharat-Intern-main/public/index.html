@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://fastbudget.app/images/app_icon_200.png">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Money Tracker</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <div class="logo"> &emsp;Money Tracker</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="/api/transactions">Transactions</a></li>
+            <li><a href="/api/transaction-report">Reports</a></li> &emsp;
+        </ul>
+    </div>
+  <section>
+    <nav>
+        <div class="container">
+         <h1 >  <img height="100px" width="100px" src="https://fastbudget.app/images/app_icon_200.png" alt=""> <br>Money Tracker</h1>
+                <hr>
+            <form id="transactionForm" align="left">
+                <label for="description">Description:</label>
+                <input type="text" id="description" name="description" required>
+    
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+    
+                <label for="type">Type:</label>
+                <select id="type" name="type" required>
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                </select>
+
+                 <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Add Transaction</button> 
+
+              
+            </form>
+        
+        </div><hr>
+       
+             <h2 id="currentMonthYear"></h2> 
+ 
+        <table id="calendar">
+          <thead>
+            <tr>
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+          <tbody id="calendarBody"></tbody>
+        </table>
+
+
+    </nav>
+    
+    <article>
+        <div align="center">
+            <label for="selectedMonth">Check Your Balance Here: </label><hr>
+            <input type="month" id="selectedMonth" name="selectedMonth"> 
+            <button id="analysisButton">Click here for Check</button>
+    
+            <div id="analysisResult"></div> 
+            <hr>
+
+        </div>
+                <h2>Transactions</h2>
+
+                <table border="1" cellspacing="1px" cellpadding="10px" align="center">
+                    <thead
+                        <tr>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Type</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="transactionList"></tbody>
+                </table>
+
+            
+    </article>
+  </section>
+   
+    <footer>
+            <p>&copy; 2023 Money Tracker App| Designed By Dipak Wani</p>
+    </footer>
+
+
+  
+</body>
+</html>
+
+ 
+    <script src="/scripts/main.js"></script>
+</body>
+</html>

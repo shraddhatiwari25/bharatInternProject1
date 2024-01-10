@@ -1,0 +1,194 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} 
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+} 
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+input,
+select,
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 90%;
+    margin-left: 15px;
+}
+
+button {
+    background-color: #6cb3fe;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: large;
+    
+}
+
+button:hover {
+    background-color: #ff77d2;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.navbar {
+    background-color: #ff9494;
+    color: #fff;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4272f7;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #e7e7e7;
+    color: #9229f4;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+
+  header {
+    background-color: #fda4f5;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+  section {
+   
+    display: flex;
+    color: #1a1919;
+
+  }
+  
+
+  nav {
+    flex: 1.8;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+
+
+  article {
+    flex: 2.7;
+    background: #eee;
+    padding: 10px;
+    color: black;
+  }
+  
+
+  footer {
+    background-color: #ff9494;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #9f9595;
+    padding: 8px;
+    text-align: left;
+  }
+  
+
+  tr:nth-child(even) {
+    background-color: #faebeb;
+  }
+  
+  tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+
+  th {
+    background-color: #de9cf4;
+    color: white;
+  }
+  
+
+  td {
+    padding: 12px;
+  }
+  
+  
+ 
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
